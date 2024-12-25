@@ -1,0 +1,51 @@
+.app {
+	background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.wrap {
+	position: relative;
+	padding-top: 50px;
+}
+
+.label {
+	position: absolute;
+   top: 20px;
+   left: 0;
+   font-size: 18px;
+}
+
+.input {
+	width: 300px;
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
+.button {
+	margin: 10px 0;
+	background-color: hsl(220, 13%, 18%);
+	height: 50px;
+	width: 200px;
+	justify-content: center;
+	font-size: 18px;
+	color: white;
+}
+
+.error {
+  margin: 0;
+	width: 300px;
+	font-size: 14px;
+	color: tomato;
+}
